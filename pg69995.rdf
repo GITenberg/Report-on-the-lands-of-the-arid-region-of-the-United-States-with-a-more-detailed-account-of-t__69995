@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xml:base="http://www.gutenberg.org/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:cc="http://web.resource.org/cc/"
+  xmlns:dcam="http://purl.org/dc/dcam/"
+>
+  <pgterms:ebook rdf:about="ebooks/69995">
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <dcterms:license rdf:resource="license"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-02-09</dcterms:issued>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</pgterms:downloads>
+    <dcterms:creator>
+      <pgterms:agent rdf:about="2009/agents/7040">
+        <pgterms:name>Powell, John Wesley</pgterms:name>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1834</pgterms:birthdate>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1902</pgterms:deathdate>
+        <pgterms:alias>Powell, J. W. (John Wesley)</pgterms:alias>
+        <pgterms:alias>Powell, Wes</pgterms:alias>
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/John_Wesley_Powell"/>
+      </pgterms:agent>
+    </dcterms:creator>
+    <dcterms:title>Report on the lands of the arid region of the United States, with a more detailed account of the lands of Utah</dcterms:title>
+    <pgterms:marc260>  $aUnited States :$bGovernment Printing Office, $c1879.</pgterms:marc260>
+    <pgterms:marc508>The Online Distributed Proofreading Team at https://www.pgdp.net (This file was produced from images generously made available by The Internet Archive)</pgterms:marc508>
+    <pgterms:marc904>https://archive.org/details/reportonlandsofa00geog_1/page/n5/mode/2up</pgterms:marc904>
+    <pgterms:marc905>20220508141056powell</pgterms:marc905>
+    <pgterms:marc906>1879</pgterms:marc906>
+    <pgterms:marc907>US</pgterms:marc907>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="N6c51a496da9444889ff6f5c02665e937">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/69995/69995-h/69995-h.htm">
+        <dcterms:isFormatOf rdf:resource="ebooks/69995"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">655571</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-09T13:13:23</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Na990fe981b20422a8115deb8c38c5603">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/69995/69995-0.txt">
+        <dcterms:isFormatOf rdf:resource="ebooks/69995"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">528012</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-09T13:13:23</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N5c51508e7e4d48d79e30c7983a1c8d9f">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/69995/69995-0.zip">
+        <dcterms:isFormatOf rdf:resource="ebooks/69995"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">166487</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-09T13:13:36</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Na6631b023e114c57a57805af7ed11460">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value>application/octet-stream</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nd45523cc5a784d538cecc768bd63d907">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/69995/69995-h.zip">
+        <dcterms:isFormatOf rdf:resource="ebooks/69995"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1522685</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-02-09T13:13:36</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ne7a572b56bcc4a09bec0a0a3d800c4e8">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value>application/octet-stream</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Na9e69ac4ad9548219c118e508074d186">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+  </pgterms:ebook>
+  <cc:Work rdf:about="">
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            https://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
+  </cc:Work>
+  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/John_Wesley_Powell">
+    <dcterms:description>Wikipedia</dcterms:description>
+  </rdf:Description>
+</rdf:RDF>
